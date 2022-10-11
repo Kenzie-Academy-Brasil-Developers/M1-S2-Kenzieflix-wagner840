@@ -63,15 +63,21 @@ h1{
     list-style: none;
 
 }
-.users ul li:hover{
-    border: 1px solid white;
-}
+
 figure{
-    width: fit-content;
-    height: fit-content;
-   
+    width: 16px;
+    height: 16px;
+    border-radius: 6px;
+    min-width: 160px;
+min-height: 160px;  
+display:flex;
+justify-content: center;
 
 
+
+}
+figure:hover{
+    border: 1px solid white
 }
 button{
     color: white;
