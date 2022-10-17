@@ -1,0 +1,4 @@
+body,section,header, img,figure,p,h1,ul,li,div,button {
+    padding: 0;
+    margin: 0;
+}

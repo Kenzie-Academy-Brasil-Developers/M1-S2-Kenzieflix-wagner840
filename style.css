@@ -17,11 +17,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
-    
-
-
 }
 .logo{
     background-color: black;
@@ -44,6 +39,7 @@ h1{
     align-items: center;
     display: flex;
     flex-direction: column;
+    width: 1000px;
 }
 
 .users ul{
@@ -51,8 +47,8 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
-    width: 100%;
+    height: 700px;
+    width: 900px;
     text-align: center;
 
    
@@ -61,23 +57,55 @@ h1{
 
 .users ul li{
     list-style: none;
+    border: 1px solid transparent;
+    width: 160px;
+    height: 180px;
+    min-width: 160px;
+    min-height: 160px;  
 
 }
+
 
 figure{
-    width: 16px;
-    height: 16px;
+    width: 100%;
+    height: 160px;
     border-radius: 6px;
+     
+border: 1px solid transparent;
+    
+}
+
+.perfil figure {
+    width: 10px;
+    height: 70px;
     min-width: 160px;
-min-height: 160px;  
-display:flex;
-justify-content: center;
+    min-height: 10px;
 
-
+     
+    
 
 }
+.perfil div{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 42, 42);
+    border: 1px solid transparent;
+
+}
+
 figure:hover{
-    border: 1px solid white
+    border: 1px solid white;
+    
+}
+.perfil figure:hover{
+    border: 1px solid transparent;
+
+}
+.perfil:hover div {
+    border: 1px solid white;
 }
 button{
     color: white;
@@ -87,6 +115,8 @@ button{
     border-radius: 9px;
     border: 1px solid white;
     font-size: 22px;
+    width: 200px;
+    height: 40px;
 }
 button:hover{
     background-color: white;
